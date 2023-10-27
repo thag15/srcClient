@@ -15,7 +15,7 @@ import {
   InputAdornment,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-// import SelectTheme from "../SelectTheme/Page";
+import SelectTheme from "../selectTheme/page";
 import SearchIcon from "@mui/icons-material/Search";
 import CloseIcon from "@mui/icons-material/Close";
 import { NavLink } from "react-router-dom";
@@ -273,7 +273,7 @@ function Navbar() {
                   <Typography textAlign="center">{setting}</Typography>
                 </MenuItem>
               ))}
-              {/* <SelectTheme></SelectTheme> */}
+              <SelectTheme></SelectTheme>
             </Menu>
           </Box>
         </Toolbar>
